@@ -1,7 +1,7 @@
 $(document).ready(function() {
 	// Determining what to append
 	// Defining the function
-	function fizzBuzzfun(num) {
+	function fizzBuzzFun(num) {
 		for (var i = 1; i <= num; i++) {
 			if (i % 15 === 0) {
 				$("#fizz").append("<li>FizzBuzz</li>")
@@ -18,5 +18,5 @@ $(document).ready(function() {
 	alert("Let's get started!");
 
 	// Invoking the function
-	fizzBuzzfun(100);
+	fizzBuzzFun(100);
 });
